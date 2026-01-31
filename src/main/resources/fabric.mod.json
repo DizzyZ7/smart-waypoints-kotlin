@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smart_waypoints",
+  "version": "1.0.0",
+  "name": "Smart Waypoints Kotlin",
+  "description": "A modern waypoint and death tracking mod written in Kotlin.",
+  "authors": ["DizzyZ7"],
+  "contact": {
+    "sources": "https://github.com/DizzyZ7/smart-waypoints-kotlin"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dizzyz7.waypoints.WaypointsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.11.0",
+    "minecraft": "~1.21"
+  }
+}
